@@ -4,6 +4,8 @@
 // Remove people from the queue if their total late fee is $0 (all books were returned on time).
 // Make sure to implement FIFO (First-In, First-Out)
 
+const Queue = require('../lib/Queue')
+
 function processReturns(queue) {
   // your code here
 }

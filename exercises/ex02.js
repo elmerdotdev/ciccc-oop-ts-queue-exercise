@@ -3,6 +3,8 @@
 // Remove customers whose total cost is less than or equal to $50 from the queue.
 // Make sure to implement FIFO (First-In, First-Out)
 
+const Queue = require('../lib/Queue')
+
 function groceryCheckout(queue) {
   // your code here
 }

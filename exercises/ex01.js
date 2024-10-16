@@ -4,6 +4,8 @@
 // techStack = needs to have at least React experience
 // Make sure to implement FIFO (First-In, First-Out)
 
+const Queue = require('../lib/Queue')
+
 function processApplicants(queue) {
   // your code here
 }
