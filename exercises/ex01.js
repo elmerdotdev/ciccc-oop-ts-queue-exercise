@@ -11,10 +11,10 @@ function processApplicants(queue) {
 }
 
 const applicants = new Queue()
-applicants.push({ name: "John Smith", yearsExperience: 3, techStack: ['Angular', 'Node'] })
-applicants.push({ name: "Jane Smith", yearsExperience: 5, techStack: ['Node', 'React', 'Vue'] })
-applicants.push({ name: "Joe Smith", yearsExperience: 1, techStack: ['React', 'Node'] })
-applicants.push({ name: "Jack Smith", yearsExperience: 2, techStack: ['Node', 'MongoDB', 'React'] })
+applicants.enqueue({ name: "John Smith", yearsExperience: 3, techStack: ['Angular', 'Node'] })
+applicants.enqueue({ name: "Jane Smith", yearsExperience: 5, techStack: ['Node', 'React', 'Vue'] })
+applicants.enqueue({ name: "Joe Smith", yearsExperience: 1, techStack: ['React', 'Node'] })
+applicants.enqueue({ name: "Jack Smith", yearsExperience: 2, techStack: ['Node', 'MongoDB', 'React'] })
 
 processApplicants(applicants)
 console.log(applicants.printQueue())
